@@ -1,0 +1,46 @@
+{
+  "name": "Quick Coloring",
+  "identifier": "com.sketchapp.quickcoloring",
+  "version": "0.1",
+  "description": "Coloring with shortcuts",
+  "authorEmail": "kashimotoxiang@outlook.com",
+  "author": "kashimoto",
+  "commands": [
+    {
+      "script": "quick-color.js",
+      "handler": "ColoringRed",
+      "shortcut": "ctrl 1",
+      "name": "Red",
+      "identifier": "quick-coloring-red"
+    },
+    {
+      "script": "quick-color.js",
+      "handler": "ColoringBlue",
+      "shortcut": "ctrl 2",
+      "name": "Blue",
+      "identifier": "quick-coloring-blue"
+    },
+    {
+      "script": "quick-color.js",
+      "handler": "ColoringGreen",
+      "shortcut": "ctrl 3",
+      "name": "Green",
+      "identifier": "quick-coloring-green"
+    },
+    {
+      "script": "quick-color.js",
+      "handler": "ColoringYellow",
+      "shortcut": "ctrl 4",
+      "name": "Yellow",
+      "identifier": "quick-coloring-yellow"
+    }
+  ],
+  "menu": {
+    "items": [
+      "quick-coloring-red",
+      "quick-coloring-blue",
+      "quick-coloring-green",
+      "quick-coloring-yellow"
+    ]
+  }
+}
