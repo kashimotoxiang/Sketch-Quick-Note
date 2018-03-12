@@ -29,10 +29,52 @@
     },
     {
       "script": "quick-color.js",
-      "handler": "ColoringYellow",
+      "handler": "ColoringLightBlue",
       "shortcut": "ctrl 4",
+      "name": "LightBlue",
+      "identifier": "quick-coloring-lightblue"
+    },
+    {
+      "script": "quick-color.js",
+      "handler": "ColoringYellow",
+      "shortcut": "ctrl 5",
       "name": "Yellow",
       "identifier": "quick-coloring-yellow"
+    },
+    {
+      "script": "quick-color.js",
+      "handler": "ColoringMagenta",
+      "shortcut": "ctrl 6",
+      "name": "Magenta",
+      "identifier": "quick-coloring-magenta"
+    },
+    {
+      "script": "quick-color.js",
+      "handler": "ColoringBrown",
+      "shortcut": "ctrl 7",
+      "name": "Brown",
+      "identifier": "quick-coloring-brown"
+    },
+    {
+      "script": "quick-color.js",
+      "handler": "ColoringDarkGreen",
+      "shortcut": "ctrl 8",
+      "name": "DarkGreen",
+      "identifier": "quick-coloring-darkgreen"
+    },
+    {
+      "script": "quick-color.js",
+      "handler": "ColoringViolet",
+      "shortcut": "ctrl 9",
+      "name": "Violet",
+      "identifier": "quick-coloring-violet"
+    },
+    {
+      "script": "quick-color.js",
+      "handler": "ColoringBlack",
+      "shortcut": "ctrl 0",
+      "name": "Black",
+      "identifier": "quick-coloring-black"
     }
   ],
   "menu": {
@@ -40,7 +82,13 @@
       "quick-coloring-red",
       "quick-coloring-blue",
       "quick-coloring-green",
-      "quick-coloring-yellow"
+      "quick-coloring-lightblue",
+      "quick-coloring-yellow",
+      "quick-coloring-magenta",
+      "quick-coloring-brown",
+      "quick-coloring-darkgreen",
+      "quick-coloring-violet",
+      "quick-coloring-black"
     ]
   }
 }

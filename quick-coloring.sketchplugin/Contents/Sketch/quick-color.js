@@ -4,15 +4,30 @@ var ColoringRed = function(context) {
 var ColoringBlue = function(context) {
   fillColorFormColors(context, [74, 144, 226]);
 };
-
 var ColoringGreen = function(context) {
   fillColorFormColors(context, [245, 166, 35]);
 };
-
+var ColoringLightBlue = function(context) {
+  fillColorFormColors(context, [80, 227, 194]);
+};
 var ColoringYellow = function(context) {
   fillColorFormColors(context, [126, 211, 33]);
 };
-
+var ColoringMagenta = function(context) {
+  fillColorFormColors(context, [189, 16, 224]);
+};
+var ColoringBrown = function(context) {
+  fillColorFormColors(context, [139, 87, 42]);
+};
+var ColoringDarkGreen = function(context) {
+  fillColorFormColors(context, [65, 117, 5]);
+};
+var ColoringViolet = function(context) {
+  fillColorFormColors(context, [144, 19, 254]);
+};
+var ColoringBlack = function(context) {
+  fillColorFormColors(context, [0, 0, 0]);
+};
 function fillColorFormColors(context, colorRGB) {
   var selectedLayers = context.selection;
   var selectedCount = selectedLayers.count();
@@ -31,14 +46,10 @@ function fillColorFormColors(context, colorRGB) {
       1.0
     );
     if (layer.class() == "MSShapeGroup") {
-      var fills = layer.style().enabledFills();
-      if (fills.count() > 0 && fills.lastObject().fillType() == 0) {
-        fills.lastObject().setColor(color);
-      } else {
-        var fill = layer.style().addStylePartOfType(0);
-        fill.setFillType(0);
-        fills.lastObject().setColor(color);
-      }
+      layer
+        .style()
+        .borders()
+        .firstObject().color = color;
     }
     if (layer.class() == "MSTextLayer") {
       layer.setTextColor(color);
