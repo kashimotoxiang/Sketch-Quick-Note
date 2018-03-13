@@ -1,8 +1,8 @@
 {
-  "name": "Quick Coloring",
-  "identifier": "com.sketchapp.quickcoloring",
-  "version": "0.1",
-  "description": "Coloring with shortcuts",
+  "name": "Quick Note",
+  "identifier": "com.sketchapp.quicknote",
+  "version": "0.8",
+  "description": "Make Annotation in Sketch with shortcuts",
   "authorEmail": "kashimotoxiang@outlook.com",
   "author": "kashimoto",
   "commands": [
@@ -75,6 +75,20 @@
       "shortcut": "ctrl 0",
       "name": "Black",
       "identifier": "quick-coloring-black"
+    },
+    {
+      "script": "quick-thickness.js",
+      "handler": "Thicker",
+      "shortcut": "ctrl +",
+      "name": "Thicker",
+      "identifier": "quick-thickness-thicker"
+    },
+    {
+      "script": "quick-thickness.js",
+      "handler": "Slimmer",
+      "shortcut": "ctrl -",
+      "name": "Slimmer",
+      "identifier": "quick-thickness-slimer"
     }
   ],
   "menu": {
@@ -88,7 +102,9 @@
       "quick-coloring-brown",
       "quick-coloring-darkgreen",
       "quick-coloring-violet",
-      "quick-coloring-black"
+      "quick-coloring-black",
+      "quick-thickness-thicker",
+      "quick-thickness-slimer"
     ]
   }
 }
