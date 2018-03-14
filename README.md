@@ -1,11 +1,12 @@
-# Quick Coloring
+# Quick Note
 
-Sketch Quicking coloring plugin. Coloring more efficiently with shortcuts!
+Sketch Quick Note plugin. Assigned shortcuts into coloring and adjusting thickness of text and shape. Help you make annotation more efficiently!
+
 Inspired by colesperks/QuickColor[https://github.com/colesperks/QuickColor]
 
-# quicklook
+# Quicklook
 
-![](Kapture 2018-03-14 at 1.24.35.gif)
+![](source/1.gif)
 
 # Usage
 
@@ -13,7 +14,7 @@ Inspired by colesperks/QuickColor[https://github.com/colesperks/QuickColor]
 
 # Shortcut CheatSheet
 
-## coloring
+## Coloring
 
 | shortcut | description |
 | -------- | ----------- |
