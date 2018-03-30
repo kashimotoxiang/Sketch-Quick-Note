@@ -1,6 +1,8 @@
 # Quick Note
 
-Sketch Quick Note plugin. Assigned shortcuts into coloring and adjusting thickness of text and shape. Help you make annotation more efficiently!
+Sketch Quick Note plugin.
+
+Assigned shortcuts into coloring and adjusting thickness of text and shape. Help you make annotation more efficiently!
 
 Inspired by colesperks/QuickColor[https://github.com/colesperks/QuickColor]
 
