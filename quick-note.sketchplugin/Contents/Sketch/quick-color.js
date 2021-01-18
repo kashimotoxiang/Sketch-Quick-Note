@@ -45,7 +45,7 @@ function fillColorFormColors(context, colorRGB) {
       colorRGB[2] / 255,
       1.0
     );
-    if (layer.class() == "MSShapeGroup") {
+    if (layer.class().toString().containsString('Shape')) {
       layer
         .style()
         .borders()
